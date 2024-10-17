@@ -20,11 +20,11 @@ const Header = () => {
     checkScreenSize();
 
     // Add event listener to monitor window resize
-    window.addEventListener('resize', checkScreenSize);
+    window.addEventListener("resize", checkScreenSize);
 
     // Clean up the event listener on component unmount
     return () => {
-      window.removeEventListener('resize', checkScreenSize);
+      window.removeEventListener("resize", checkScreenSize);
     };
   }, []);
 
@@ -57,9 +57,12 @@ const Header = () => {
             >
               Agency
             </Link>
-            {/* <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
+            <Link
+              href="/team"
+              className={activeLink == "/team" ? "activeLink" : "none"}
+            >
               Team
-            </Link> */}
+            </Link>
             <Link
               href="/services"
               className={activeLink == "/services" ? "activeLink" : "none"}
@@ -81,7 +84,9 @@ const Header = () => {
             >
               Contact
             </Link>
-            <button className="button-primary">book a consultation</button>
+            <Link href="https://wa.me/7049394520" target="_main">
+              <button className="button-primary">book a consultation</button>
+            </Link>
           </nav>
           {isSmallScreen && (
             <button onClick={() => setOpen(!open)}>

@@ -16,21 +16,21 @@ const Agency = () => {
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Turning your business ideas into smart digital products since 2001' />
-              <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
+              <TitleSm title='Turning your business ideas into smart digital products.' />
+              <p className='desc-p'>Transform your business ideas into innovative digital solutions with cutting-edge technology. We specialize in creating smart, user-friendly products tailored to your needs, helping you streamline operations, enhance customer experiences, and achieve sustainable growth in the digital era.</p>
               <div className='grid-3'>
                 <div className='box'>
-                  <h1 className='indigo'>10+</h1>
+                  <h1 className='indigo'>2+</h1>
                   <h3>Years of experience</h3>
                 </div>
                 <div className='box'>
                   <h1 className='indigo'>50+</h1>
                   <h3>Successful cases</h3>
                 </div>
-                <div className='box'>
+                {/* <div className='box'>
                   <h1 className='indigo'>12+</h1>
                   <h3>Industry awards</h3>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className='right w-40 ml'>
@@ -45,7 +45,7 @@ const Agency = () => {
             <div className='right w-60 ml'>
               <TitleSm title='Our mission' />
               <br />
-              <p className='misson-p'>Fusce fringilla justo vel dui consectetur, fringilla maximus ante malesuada. Suspendisse facilisis nisl augue, ut sollicitudin lectus ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse vitae officia nostrum facere. Fugiat voluptates, expedita dolore at perferendis quae libero fuga consequatur veniam, eius non fugit nulla vitae?</p>
+              <p className='misson-p'>Our mission is to empower businesses by transforming their ideas into innovative, high-performance digital products. We strive to deliver exceptional solutions that drive growth, enhance user experiences, and streamline operations. Through cutting-edge technology and strategic insights, we aim to help our clients succeed in the evolving digital landscape.</p>
             </div>
           </div>
         </div>
